@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 50px 50px;
+}
+body > h1 {
+  margin: 20px 5px;
+}
+.product-image {
+  width: 20%;
+  margin: 10px;
+}
+.product-details {
+  width: 37%;
+  margin: 10px;
+  padding: 15px;
+}
+.product-price {
+  width: 12%;
+  margin: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.product-price > span {
+  display: flex;
+}
+
+.product-quantity {
+  width: 10%;
+  margin: 10px;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+}
+
+.product-removal-like {
+  width: 9%;
+  margin: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-removal-like .fa-trash-alt {
+  margin: 0px;
+  padding: 0px;
+}
+.product-removal-like .fa-heart {
+  padding: 10px;
+  margin: 10px;
+}
+.rmve-btn,
+.heart,
+.fa-minus,
+.fa-plus {
+  cursor: pointer;
+}
+.rmve-btn {
+  margin: 20px;
+}
+
+.product-line-price {
+  width: 12%;
+  margin: 10px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-line-price > span {
+  display: flex;
+}
+
+.column-labels {
+  width: 100%;
+  border-bottom: 2px black solid;
+  margin: 10px 5px;
+  padding: 5px 0px;
+  position: relative;
+}
+.column-labels .line-price {
+  position: absolute;
+  right: 70px;
+}
+.column-labels .qtity {
+  position: absolute;
+  right: 350px;
+}
+.column-labels .unit-price {
+  position: absolute;
+  left: 650px;
+}
+
+.product {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 10px 5px;
+  padding: 5px;
+  border-bottom: 1px gray solid;
+}
+
+.product-image > img {
+  width: 250px;
+}
+.checkout {
+  float: right;
+  border: 0;
+  margin-top: 20px;
+  padding: 6px 25px;
+  background-color: #00bcd4;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.total .total-item {
+  float: right;
+  clear: both;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.total label {
+  float: left;
+  clear: both;
+  width: 79%;
+  text-align: right;
+  font-size: 15px;
+}
+
+.total .total-value {
+  float: right;
+  width: 21%;
+  text-align: right;
+  font-size: 15px;
+}
